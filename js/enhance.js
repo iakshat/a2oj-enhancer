@@ -51,6 +51,14 @@ links.appendChild(loginButton)
 navbar.appendChild(links)
 // console.log(navbar.outerHTML)
 // document.body.innerHTML = navbar.outerHTML + document.body.innerHTML;
+var githubLink = document.createElement("a");
+githubLink.href = "https://github.com/iakshat/a2oj-enhancer"
+var img = document.createElement("img");
+githubLink.classList = "left"
+img.src = "https://i.imgur.com/IpGTwiU.png";
+img.classList = "responsive-img circle center"
+githubLink.appendChild(img);
+navbar.appendChild(githubLink)
 
 setTimeout(() => {
     document.getElementById("toggle").onclick =  (e) => {
