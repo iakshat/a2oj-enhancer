@@ -1,4 +1,4 @@
-# a2oj Enhancer
+# a2oj Reimagined
 
 making a2oj dynamic again with your correct submisssions in green in firefox.
 
